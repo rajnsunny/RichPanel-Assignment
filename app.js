@@ -32,7 +32,7 @@ mongoConnect((client) => {
 		io.attach(serv, {
 			cors: {
 				//Local host Url
-				origin: "http://localhost:3000",
+				origin: "https://richpanel1.netlify.app",
 				methods: ["GET", "POST"],
 			},
 		});
